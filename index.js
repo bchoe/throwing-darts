@@ -1,4 +1,4 @@
-function scoreFunction(score){
+function scoreThrows(score){
   switch(score){
     case score < 5:
       return 10;
@@ -9,4 +9,11 @@ function scoreFunction(score){
   }
 }
 
-module.exports = scoreFunction();
+function scoreFunction(arr){
+  for (let i = o; i < arr.length; i++){
+
+  }
+}
+
+module.exports = scoreThrows;
+module.exports = scoreFunction;
