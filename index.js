@@ -8,7 +8,6 @@ function scoreThrows(score){
   }
 }
 
-
 function scoreFunction(arr){
   let finalScore = 0;
   for (let i = 0; i < arr.length; i++){
@@ -20,8 +19,9 @@ function scoreFunction(arr){
   return finalScore;
 }
 
-console.log(scoreFunction([1,2,3]));
-console.log(scoreFunction([6,7,8]));
+console.log(scoreFunction([1,5,11]));
+console.log(scoreFunction([15,20,30]));
+console.log(scoreFunction([1,2,3,4]));
 module.exports = scoreThrows;
 
 
